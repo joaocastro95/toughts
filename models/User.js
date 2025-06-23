@@ -9,7 +9,7 @@ const User = db.define('User', {
     email: {type: DataTypes.STRING,
         require: true,
     },
-    senha: {type: DataTypes.STRING,
+    password: {type: DataTypes.STRING,
         require: true,
     },
 
