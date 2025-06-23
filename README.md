@@ -1,7 +1,8 @@
-# # 📰 Toughts - NODE
+# 📰 Toughts - NODE
 
 O ***Toughts*** é um projeto desenvolvido sobre orientação de Node.js e organização estrutual MVC em JavaScript durante o curso oferecido pela Hora de Codar. Ele permite que os usuários criem contas, gerencie suas contas e adicionem e removam pensamentos proporcionando uma interface interativa e dinâmica. O código implementa uma lógica para gerenciar as pensamentos, garantindo que a interface seja atualizada automaticamente conforme o usuário interage com a aplicação.
 
+----------------------------
 
 ## 🌐 Interface Web
 
@@ -9,6 +10,7 @@ A página inicial apresenta uma interface escura e moderna, focada na exibição
 
 ![Página Principal](/public/img/print1.png)
 
+----------------------------
 
 ### 🔍 Testando Localmente
 
@@ -40,11 +42,12 @@ Isso abrirá a interface web do projeto. Se o servidor estiver funcionando corre
 #### 📝 Observação
 Se você encontrar algum problema ou a página não carregar, consulte a seção de [Autores](#-autores) e entre em contato conosco.
 
+----------------------------
 
 ## 🚀 Estrutura do Projeto
 Mantivemos uma estrutura organizada para facilitar a manutenção e a compreensão do código:
 
-### **Backend**
+### ⚙️**Backend**
 
 - **`controllers/`**  
   - `AuthController.js`: Controlador responsável pelas ações de login, logout e registro de usuários.  
@@ -68,7 +71,7 @@ Mantivemos uma estrutura organizada para facilitar a manutenção e a compreens�
   Arquivo principal da aplicação. Inicializa o servidor Express, configura Handlebars, sessões, middlewares e sincroniza os modelos com o banco de dados.
 
 
-### **Frontend**
+### 🎨**Frontend**
 
 - **`views/`**  
   - **`auth/`**  
@@ -105,8 +108,8 @@ Mantivemos uma estrutura organizada para facilitar a manutenção e a compreens�
 - **`README.md`**: Arquivo de documentação do projeto.  
 - **`instalacoes.txt`**: Arquivo de anotações ou instruções internas relacionadas à instalação/configuração do projeto.
 
-  ---
-  
+----------------------------
+
 ## 🚀 Tecnologias Utilizadas
 
 | Ferramenta       | Descrição                                         |
